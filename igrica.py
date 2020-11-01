@@ -45,8 +45,7 @@ while True:
             clear_board(matrica) 
             print_board(matrica)    
         else:
-            for i in range(len(matrica)):
-                print(matrica[i])
+            print_board(matrica)
             if turn == "X":
                 turn = "Y"
             else:
